@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Maquillaje</title>
+    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon" />
+  </head>
+  <body>
+    <nav align="center">
+      <a href="../Inicio.html">Inicio</a>
+      <a href="Productos.html">Productos</a>
+      <a href="Nosotros.html">Nosotros</a>
+    </nav>
+    <h1 align="center" style="color: pink">CONTACTANOS</h1>
+    <p align="center" style="color: red">
+      Contactanos y conoce más de nuestros productos
+    </p>
+    <div align="center">
+      <img src="../Imagenes/CONTACTO.png.jfif" width="20%" alt="logo maquillaje" />
+    </div>
+    <div align="center">
+      <form>
+        <label> Nombre Completo</label>
+        <input type="text" placeholder="ESCRIBA EN MAYUSCULAS" maxlength="10" />
+        <br />
+        <label>Escriba su Celular:</label>
+        <input type="number" minimo="18" max="50" /> <br />
+        <label>Escriba su correo:</label>
+        <input type="email" required /> <br />
+        <label>Escriba contraseña</label>
+        <input type="password"> <br>
+        <label>Escrina su fecha de nacimiento</label>
+        <input type="date" max="2006-12-31" min="1980-12-31"> <br>
+        <label>Sube tu foto</label>
+        <input type="file" max="1GB" accept=".jpg, .png, .jpeg"> <br>
+        <label>Escoger tu sexo:</label>
+        <input type="radio" name="sexo" value="Hombre">Hombre
+        <input type="radio" name="sexo" value="Mujer">Mujer
+        <input type="radio" name="sexo" value="Otro">Otro <br>
+        <label>Como te enteraste de nosotros</label>
+        <input type="checkbox" name="Publicidad" value="Redes">Redes Sociales
+        <input type="checkbox" name="Publicidad" value="TV">Television
+        <input type="checkbox" name="Publicidad" value="Radio">Radio <br>
+        <label>Escriba su sugerencia</label>
+        <textarea name="Sugerencia"></textarea> <br>
+        <label>Escoja que desea:</label>
+        <select name="Tipoproducto">
+          <option value="Blush"> Blush</option>
+          <option value="Labiales">Labiales</option>
+          <option value="Pestañinas">Pestañinas</option>
+        </select> <br> <br> <br> <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">borrar</button>
+      </form>
+    </div>
+  </body>
+</html>
